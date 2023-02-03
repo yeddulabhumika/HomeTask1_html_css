@@ -1,0 +1,132 @@
+.title-1 {
+  padding: 10px;
+  color: white;
+  background-color: orangered;
+  margin-left: 40px;
+  border-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.div1 {
+  background-color: rgb(3, 3, 75);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grey {
+  text-align: center;
+  padding-bottom: 6px;
+  background-color: white;
+  border: 1px solid red;
+  width: 350px;
+  margin: auto;
+  height: 65px;
+  font-size: 12px;
+}
+
+.foot {
+  background-color: rgb(3, 3, 75);
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 28%;
+  font-family: Arial;
+
+}
+
+.column2 {
+  text-align: center;
+}
+
+.butt {
+  background-color: #0a0b0a;
+  border: grey;
+  color: white;
+  text-shadow: white;
+  text-align: center;
+  border-style: outset;
+  border-style: inset;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flex {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  column-gap: 175px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+}
+
+.title {
+  margin-left: 217px;
+  font-weight: bold;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #201a67;
+}
+
+.posted {
+  margin-left: 217px;
+}
+
+@media screen and (max-width:750px) {
+
+  .flex {
+    margin-left: 10px;
+    margin-top: 5px;
+    column-gap: 40px;
+  }
+
+
+  .column {
+    width: 14%;
+  }
+
+
+  .grey {
+    width: 250px;
+    height: 65px;
+    font-size: 12px;
+  }
+
+
+}
+
+@media screen and (max-width:300px) {
+
+  .flex {
+    margin-left: 7px;
+    margin-top: 5px;
+    column-gap: 40px;
+  }
+
+  .column {
+    width: 23%;
+  }
+
+  .grey {
+
+    width: 200px;
+    height: 40px;
+    font-size: 7px;
+  }
+
+}
